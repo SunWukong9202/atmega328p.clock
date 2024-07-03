@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "clock2", "clock2\clock2.csproj", "{E5509B7E-590F-4157-8048-F369397255EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{81EA0A3E-82BE-4584-8853-2552639C6D75}"
+	ProjectSection(SolutionItems) = preProject
+		clock2\images\pause.png = clock2\images\pause.png
+		clock2\images\play_buttton.png = clock2\images\play_buttton.png
+		clock2\images\undo-arrow.png = clock2\images\undo-arrow.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5509B7E-590F-4157-8048-F369397255EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5509B7E-590F-4157-8048-F369397255EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5509B7E-590F-4157-8048-F369397255EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5509B7E-590F-4157-8048-F369397255EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07D84838-B9A2-4F89-84A6-A6A0E05BFB6B}
+	EndGlobalSection
+EndGlobal

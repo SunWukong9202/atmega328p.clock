@@ -1,0 +1,21 @@
+.MACRO LOAD_IO io_reg, value
+  LDI R16, \value
+  OUT \io_reg, R16
+.ENDM
+
+.MACRO INIT_LOW_GPR GPR, VALUE
+  LDI R18, \VALUE
+  MOV \GPR, R18
+.ENDM
+
+.MACRO INIT_STACK 
+  LDI R16, hi8(RAMEND)
+  OUT SPH, R16
+  LDI R16, lo8(RAMEND)
+  OUT SPL, R16
+.ENDM
+
+.MACRO LOAD_ARAM address, value
+  LDI R16, \value
+  STS \address, R16
+.ENDM
